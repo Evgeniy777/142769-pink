@@ -1,0 +1,36 @@
+.main-information {
+  &__title {
+    margin: 0 auto;
+    max-width: 220px;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: normal;
+  }
+  
+  &__items {
+    background-color: #f2f2f2;
+  }
+  
+  &__item {
+    margin: 0 20px 20px;
+    text-align: center;
+  }
+  
+  &__item-image {
+    
+  }
+  
+  &__item-title {
+    margin: 0 0 11px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+  }
+  
+  &__item-text {
+    margin: 0;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
