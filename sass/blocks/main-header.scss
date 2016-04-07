@@ -1,0 +1,55 @@
+.main-header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  
+  &__top-menu {
+    @include clearfix;
+    padding: 22px 20px 25px;
+    color: #fff;
+    border-bottom: 1px solid #000;
+    background-color: #283645;
+//    background-color: rgba(0,0,0,0.3);
+
+  }
+  
+  &__logo {
+    @include link;
+    float: left;
+    width: 75px;
+    height: 22px;    
+    color: #fff;
+    outline: 1px solid white;
+  }
+  
+  &__toggle {
+    position: relative;
+    display: block;
+    float: right;
+    border: none;
+    
+    &:before {
+      position: absolute;
+      display: block;
+      content: "";
+      top: 0;
+      right: 0;
+      width: 24px;
+      height: 23px;
+      background-color: white;
+      z-index: 101;
+    }
+    
+    &:after {
+      position: absolute;
+      display: none;
+      content: "";
+      top: 0;
+      right: 0;
+      width: 50px;
+      height: 24px;
+      background-color: yellow;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.main-intro {
+  position: relative;
+  background-color: #1d2631;
+  color: #fff;
+  
+  &:before {
+    content: "";
+    display: block;
+//    width: auto;
+    height: 462px;
+    background-color: #2c3949;
+  }
+}

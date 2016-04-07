@@ -1,0 +1,21 @@
+.main-nav {
+  &__list {
+    @include no-list;
+  }
+  
+  &__item {
+    border-top: 1px solid #485461;
+    border-bottom: 1px solid #000;
+  }
+  
+  &__link {
+    @include link;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: bold;
+    color: #fff;
+    padding: 16px 0;
+    text-align: center;
+    background-color: #283645;
+  }
+}

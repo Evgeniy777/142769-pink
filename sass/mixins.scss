@@ -1,0 +1,39 @@
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin container {
+  width: 320px;
+  margin: 0 auto;
+  
+  @media ($tablet-widths) {
+    width: 768px;
+  }
+  
+  @media ($desktop-widths) {
+    width: 1200px;
+  }
+}
+
+@mixin no-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin outline-green {
+  outline: 2px dotted green;
+}
+
+@mixin outline {
+  outline: 2px dotted black;
+}
+
+@mixin link {
+  display: block;
+  text-decoration: none;
+}
