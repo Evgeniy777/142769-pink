@@ -1,0 +1,23 @@
+.main-price {
+  &__table {
+    & td {
+      border: 2px solid #e5e5e5;
+    }
+  }
+
+  &__table-head {
+    color: #fff;
+    background-color: #283645;
+    border: 2px solid #283645;
+    padding: 15px 0 18px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  &__price {
+    display: block;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 300;
+  }
+}

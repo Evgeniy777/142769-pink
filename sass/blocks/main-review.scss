@@ -1,0 +1,44 @@
+.main-review {
+  margin: 45px 20px 0;
+
+  &__item {
+    text-align: center;
+  }
+
+  &__author {
+    margin: 0 0 12px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  &__text {
+    margin: 0 0 33px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+
+  &__slider {
+    text-align: center;
+    font-size: 0;
+    margin-bottom: 43px;
+  }
+
+  &__btn {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 6px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    background-color: #bec2c7;
+    box-shadow: 0 0 0 3px #fff;
+
+    &--active {
+      background-color: #fff;
+      box-shadow: 0 0 0 3px #283645;
+    }
+  }
+
+}
